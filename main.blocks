@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="@KKAlaWS-WcNnQt34L7J" x="0" y="0"><comment pinned="true" h="123" w="162">Don't forget to comment your code as you work!</comment></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Py2Qw*o2Rg4|1VCyP+{:">mySprite</variable><variable type="KIND_SpriteKind" id="prvoNCtyrwF1CC4HgNP?">Player</variable><variable type="KIND_SpriteKind" id="mYB0=!!#n7wYmD[u=?/t">Projectile</variable><variable type="KIND_SpriteKind" id="wcKth/Bv5dMp-Lu:PkG$">Food</variable><variable type="KIND_SpriteKind" id="Epl91+K0V_,q)w7KG)~}">Enemy</variable></variables><block type="pxt-on-start" id="@KKAlaWS-WcNnQt34L7J" x="0" y="0"><comment pinned="false" h="123" w="162">Don't forget to comment your code as you work!</comment><statement name="HANDLER"><block type="variables_set" id="}V/]0ldWA)`I~YLNk+p0"><field name="VAR" id="Py2Qw*o2Rg4|1VCyP+{:">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="`O_p!gkK51Uq=R8El]vi"><value name="img"><shadow type="screen_image_picker" id="EiR7z-P~xYuSj2OW0A!D"><field name="img">img`
+. . . . . . 2 2 2 2 . . . . . . 
+. . . . 2 2 3 3 3 3 2 e . . . . 
+. . . 2 3 d 1 1 d d 3 2 e . . . 
+. . 2 3 1 d 3 3 3 d d 3 e . . . 
+. 2 3 1 3 3 3 3 3 d 1 3 b e . . 
+. 2 1 d 3 3 3 3 d 3 3 1 3 b b . 
+2 3 1 d 3 3 1 1 3 3 3 1 3 4 b b 
+2 d 3 3 d 1 3 1 3 3 3 1 3 4 4 b 
+2 d 3 3 3 1 3 1 3 3 3 1 b 4 4 e 
+2 d 3 3 3 1 1 3 3 3 3 1 b 4 4 e 
+e d 3 3 3 3 d 3 3 3 d d b 4 4 e 
+e d d 3 3 3 d 3 3 3 1 3 b 4 b e 
+e 3 d 3 3 1 d d 3 d 1 b b e e . 
+. e 3 1 1 d d 1 1 1 b b e e e . 
+. . e 3 3 3 3 3 3 b e e e e . . 
+. . . e e e e e e e e e e . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"EiR7z-P~xYuSj2OW0A!D"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="{5-an[DeW_3}_Sj*SnfG"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block></xml>
