@@ -1,18 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="/zhCg^EQ$)1C_POzM2Bu">mySprite</variable><variable type="KIND_SpriteKind" id="yj}jgK7]7__m=eE8sGyl">Player</variable><variable type="KIND_SpriteKind" id="cvtjs;M3iEY!9[PlOP`1">Projectile</variable><variable type="KIND_SpriteKind" id=")Vszo)T20zzV))j90:U8">Food</variable><variable type="KIND_SpriteKind" id="GTA_l[%+Uu]U?aUCUPYc">Enemy</variable></variables><block type="pxt-on-start" id="@KKAlaWS-WcNnQt34L7J" x="0" y="0"><comment pinned="false" h="123" w="162">Don't forget to comment your code as you work!</comment><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="9m*VS;TB,b9,pfWJUyZF"><value name="color"><shadow type="colorindexpicker" id="hb3uz)O9~qFAKl+%yQAK"><field name="index">13</field></shadow></value><next><block type="variables_set" id="r8.y`mW$tY-2msn|/E{x"><field name="VAR" id="/zhCg^EQ$)1C_POzM2Bu">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id=";{@=4vRr-HrMZv3fXzt8"><value name="img"><shadow type="screen_image_picker" id="2-(5aC|]wFXCKUguRx{-"><field name="img">img`
-. . 2 2 b b b b b . . . . . . . 
-. 2 b 4 4 4 4 4 4 b . . . . . . 
-2 2 4 4 4 4 d d 4 4 b . . . . . 
-2 b 4 4 4 4 4 4 d 4 b . . . . . 
-2 b 4 4 4 4 4 4 4 d 4 b . . . . 
-2 b 4 4 4 4 4 4 4 4 4 b . . . . 
-2 b 4 4 4 4 4 4 4 4 4 e . . . . 
-2 2 b 4 4 4 4 4 4 4 b e . . . . 
-. 2 b b b 4 4 4 b b b e . . . . 
-. . e b b b b b b b e e . . . . 
-. . . e e b 4 4 b e e e b . . . 
-. . . . . e e e e e e b d b b . 
-. . . . . . . . . . . b 1 1 1 b 
-. . . . . . . . . . . c 1 d d b 
-. . . . . . . . . . . c 1 b c . 
-. . . . . . . . . . . . c c . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"2-(5aC|]wFXCKUguRx{-"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="N9NAdl#YuLH$YM6MLBXG"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="yj}jgK7]7__m=eE8sGyl">Player</variable><variable type="KIND_SpriteKind" id="cvtjs;M3iEY!9[PlOP`1">Projectile</variable><variable type="KIND_SpriteKind" id=")Vszo)T20zzV))j90:U8">Food</variable><variable type="KIND_SpriteKind" id="GTA_l[%+Uu]U?aUCUPYc">Enemy</variable><variable id="/zhCg^EQ$)1C_POzM2Bu">mySprite</variable><variable id="9`ub8`DrRD[-Eq33{r1i">steveHarvey</variable></variables><block type="pxt-on-start" id="@KKAlaWS-WcNnQt34L7J" x="0" y="0"><comment pinned="false" h="123" w="162">Don't forget to comment your code as you work!</comment><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="3JDU0~xUFx*#Iq:8W(nE"><value name="color"><shadow type="colorindexpicker" id="nI#yW/.]_qwQ;%ms$cx2"><field name="index">1</field></shadow></value><next><block type="variables_set" id="vN{C@L^M0t7N6Je2x;)-"><field name="VAR" id="9`ub8`DrRD[-Eq33{r1i">steveHarvey</field><value name="VALUE"><shadow type="math_number" id="h]S|YXGl^WTSty5e.})@"><field name="NUM">0</field></shadow><block type="gameaskforstring" id="=2}}T=E0Oa%)RIX?GH-D"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="message"><shadow type="text" id="_/jJakd50V%.|u$iX]3?"><field name="TEXT">What country has 115 pyramids?</field></shadow></value><value name="answerLength"><shadow type="math_number_minmax" id="dVASLk2n/].H^#xN~VA="><mutation min="1" max="24" label="AnswerLength" precision="0"></mutation><field name="SLIDER">5</field></shadow></value></block></value></block></next></block></statement></block></xml>
