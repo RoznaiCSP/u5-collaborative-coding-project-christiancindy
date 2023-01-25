@@ -1,19 +1,28 @@
 function name (firstName: string) {
     return firstName
 }
+function answers (questionOne: string) {
+    answers("Asia")
+    return questionOne
+}
 function checkingStatus (isRight: boolean) {
     if (isRight) {
         scene.setBackgroundColor(7)
         music.baDing.play()
+        steveHarvey.sayText("Good" + " " + "Job!", 4000, false)
     } else {
         scene.setBackgroundColor(2)
         info.changeCountdownBy(-5)
+        steveHarvey.sayText("Try" + " " + "again", 4000, false)
     }
 }
 // Don't forget to comment your code as you work!
+let answer = 0
+let steveHarvey: Sprite = null
+info.startCountdown(60)
 let firstName = game.askForString("What is your first name?", 12)
 scene.setBackgroundColor(1)
-let steveHarvey = sprites.create(img`
+steveHarvey = sprites.create(img`
     ........................
     ........................
     ........................
@@ -41,8 +50,12 @@ let steveHarvey = sprites.create(img`
     `, SpriteKind.Player)
 steveHarvey.sayText("Welcome" + " " + name(firstName), 5000, false)
 pause(5000)
-info.startCountdown(60)
 game.splash(game.askForString("What is the largest continent?"))
+if (answer) {
+    checkingStatus(true)
+} else {
+    checkingStatus(false)
+}
 let puertoRicoFlag = sprites.create(img`
     ........................
     ........................
