@@ -42,7 +42,7 @@ let steveHarvey = sprites.create(img`
 steveHarvey.sayText("Welcome" + " " + name(firstName), 5000, false)
 pause(5000)
 info.startCountdown(60)
-game.splash(game.askForString("What is the largest continent?"))
+game.splash(game.askForString("What is the largest continent?", 12))
 let puertoRicoFlag = sprites.create(img`
     ........................
     ........................
@@ -69,3 +69,13 @@ let puertoRicoFlag = sprites.create(img`
     ........................
     ........................
     `, SpriteKind.Player)
+game.splash(game.askForString("What country has 118 pyramids?", 12))
+game.splash(game.askForString("Which animal is known as mans best friend?", 12))
+game.splash(game.askForString("Which animal is known as mans best friend?", 12))
+game.splash(game.askForString("Which bird is the symbol of peace?", 12))
+game.splash(game.askForString("What s the first three numbers in PI?", 12))
+game.splash(game.askForString("What is it called someone who is an expert on math? ", 12))
+game.splash(game.askForString("When was the constitution signed?", 12))
+game.splash(game.askForString("What year did the twin towers fell?", 12))
+game.splash(game.askForString("What is known as thrpowerhouse of cells?", 12))
+game.splash(game.askForString("What is the symbol of aluminun in the periodic table? ", 12))
