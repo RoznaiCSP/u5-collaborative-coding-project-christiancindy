@@ -71,7 +71,6 @@ let puertoRicoFlag = sprites.create(img`
     `, SpriteKind.Player)
 game.splash(game.askForString("What country has 118 pyramids?", 12))
 game.splash(game.askForString("Which animal is known as mans best friend?", 12))
-game.splash(game.askForString("Which animal is known as mans best friend?", 12))
 game.splash(game.askForString("Which bird is the symbol of peace?", 12))
 game.splash(game.askForString("What s the first three numbers in PI?", 12))
 game.splash(game.askForString("What is it called someone who is an expert on math? ", 12))
